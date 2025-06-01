@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+    font-family: "impact";
+    justify-content: center;
+}
+
+p {
+    font-size: 2em;
+}
+
+#timer {
+    display: none;
+    position: absolute;
+    top: 0.8em;    /* afstand vanaf bovenkant van het scherm */
+    left: 2em;   /* afstand vanaf linkerkant van het scherm */
+    font-size: 27px;
+    color: white;
+}
+
+#timer.timerAfgelopen {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 10em;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#plus{
+    height: 3vh;
+    padding: 0.2em;
+    background-color: white;
+}
+
+#min{
+    height: 3vh;
+    padding: 0.2em;
+    background-color: white;
+}
+
+#leeftijdToevoegen {
+    display: none;
+}
+
+#verstopplekken {
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#verstopplekken img {
+    height: 10vh;
+}
+
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#leeftijdToevoegen img {
+    margin: 0.7vw;
+}
+
+#kluisSlot {
+    display: none;
+    width: 50vw;
+    margin-left: 25%;
+}
+
+#boekOpen {
+    display: none;
+    width: 50vw;
+    margin-left: 25%;
+}
+
+#lades {
+    flex-direction: column;
+}
+
+#lades img {
+    width: 7vw;
+    height: 5vh;
+    margin: -100;
+}
+
+#codeTypen {
+    display: none;
+    justify-content: center;
+}
+
+
+#codeInvullen {
+    position: fixed;
+    top: 70%;
+}
+
+#codeCheck {
+    position: fixed;
+    top: 75%;
+}
+
+#codecijfer {
+    display: none;
+    margin-top: 20vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#cijferLatenZien {
+    position: absolute;
+    color: black;
+    top: 30%;
+}
+
+#afval {
+    display: none;
+    width: 50vw;
+    margin-left: 25%;
+}
+
+#terugknop {
+    display: none;
+    width: 7vw;
+    margin-top: 1vh;
+    margin-left: 10vw;
+}
